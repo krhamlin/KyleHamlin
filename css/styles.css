@@ -1,0 +1,295 @@
+/****************
+GENERAL STYLES
+****************/
+
+body {
+	font-family: 'Exo 2', sans-serif;
+	background: url("../img/crossword.png");
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+/* HTML */
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	font-size: 1.3em;
+	min-height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: LightSalmon;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	color: #ccc;
+	margin: 0 0 1em 0;
+	font-family: 'Architects Daughter', cursive;
+}
+
+#welcome {
+	color: LightSalmon;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+#main {
+	margin-top: -15px;
+}
+
+/****************
+HEADING STYLES
+****************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	text-align: center;
+	background: url("../img/black_thread.png");
+}
+
+#logo {
+	text-align: center;
+	margin: 10px;
+}
+
+h1 {
+	font-family: 'Exo 2', sans-serif;
+	margin: 15px 0;
+	font-size: 3em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 2em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+/****************
+NAVIGATION STYLES
+****************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+	font-size: 1.2em;
+	background: url("../img/black_thread.png");
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 5px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 700;
+	padding: 15px 2px;
+	font-size: 1.2em;
+}
+
+.sub {
+	display: none;
+}
+
+.show {
+	margin: 10px 10px 0 10px;
+}
+/****************
+FOOTER STYLES
+****************/
+
+footer {
+	font-size: 1em;
+	text-align: center;
+	padding-top: 50px;
+	color: #ccc;
+	clear: both;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
+/****************
+PAGE: PORTFOLIO STYLES
+****************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #aaa;
+	text-align: center;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 1em;
+	color: #aaa;
+	text-align: center;
+}
+
+/****************
+PAGE: ABOUT STYLES
+****************/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 35%;
+}
+
+/****************
+PAGE: CONTACT STYLES
+****************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 1.3em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+
+/****************
+COLOR STYLES
+****************/
+
+/* Site Body */
+body {
+	background-color: white;
+	color: #aaa;
+}
+
+/* Orange Header */
+header {
+	background: url("../img/black_thread.png");
+}
+
+/* Nav Background Mobile */
+nav {
+	background: #CBFFB2;
+}
+
+/* Logo Text */
+h1, h2 {
+	color: #fff;
+}
+
+/* Nav Links */
+nav a, nav a:visited {
+	color: #ccc;
+}
+
+/* Selected Nav Links */
+nav a.selected, nav a:hover {
+	color: #70B24F;;
+}
+
+#gallery2 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery2 li {
+	float: left;
+	width: 90%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #aaa;
+	text-align: center;
+}
+
+#gallery2 li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 1em;
+	color: #aaa;
+	text-align: center;
+}
+
+#gallery3 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery3 li {
+	float: left;
+	width: 90%;
+	margin: 2.5%;
+	background-color: #f5f5f5;
+	color: #aaa;
+	text-align: center;
+}
+
+#gallery3 li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: 1em;
+	color: #aaa;
+	text-align: center;
+}
+
+#wrapper h3 {
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.top {
+	text-align: center;
+	font-size: 2em;
+	clear: both;
+	padding-top: 20px;
+}

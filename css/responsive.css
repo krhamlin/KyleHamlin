@@ -1,0 +1,167 @@
+/****************
+MEDIA QUERIES
+****************/
+
+@media screen and (min-width: 480px) {
+
+	/****************
+	 PAGE: PORTFOLIO
+	****************/
+
+	#gallery li {
+		width: 28.3333333333333333%;
+	}
+
+	#gallery li:nth-child(4n) {
+		clear: left;
+	}
+
+	#gallery2 li {
+		width: 45%;
+	}
+
+	#gallery2 li:nth-child(4n) {
+		clear: left;
+	}
+
+	#gallery3 li {
+		width: 28.3333333333333333%;
+	}
+
+	#gallery3 li:nth-child(4n) {
+		clear: left;
+	}
+
+
+	/****************
+	 PAGE: ABOUT
+	****************/
+
+	.profile-photo {
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+	nav a {
+	font-weight: 700;
+	padding: 15px 5px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 660px) {
+
+	/****************
+	 HEADER
+	****************/
+
+	nav {
+		background: none;
+		float: right;
+		font-size: 1.5em;
+		margin-right: 2%;
+		text-align: right;
+		width: 60%;
+	}
+
+	#logo {
+		float: left;
+		text-align: center;
+		width: 30%;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+		margin-bottom: 20px;
+	}
+
+	header {
+		border-bottom: 5px solid #CBFFB2;
+		margin-bottom: 60px;
+	}
+
+	p {
+		font-size: 1.25em;
+	}
+
+	nav li {
+		border: none;
+	}
+
+	nav a {
+		font-weight: 700;
+		padding: 15px 12px;
+	}
+
+	nav a, nav a:visited {
+		color: white;
+	}
+
+	nav a:hover, nav a.selected {
+		color: #CBFFB2;
+	}
+
+	/****************
+	2 COLUMN LAYOUt
+	****************/
+	
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+	.bio {
+		width: 80%;
+	}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

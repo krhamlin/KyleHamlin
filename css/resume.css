@@ -1,0 +1,57 @@
+
+.bio {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.bio h1, 
+.bio h2, 
+.bio h3 {
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	color: #aaa;
+}
+
+.bio h1,
+.bio h2 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.bio p,
+.bio li {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.dropcap {
+	font-size: 4em;
+	background: #B03838;
+	color: white;
+	padding: .5em;
+	margin: .25em;
+	float: left;
+	border-radius: 25%;
+}
+
+.bio h4 {
+	text-align: center;
+}
+
+hr {
+	clear: both;
+}
+
+.res {
+	width: 50%;
+}
+
+.resume {
+	text-align: center;
+}
+
+.bio h3::before {
+	content: "↳ ";
+	text-decoration: none;
+	float: left;
+}
