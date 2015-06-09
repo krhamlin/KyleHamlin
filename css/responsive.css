@@ -32,6 +32,9 @@ MEDIA QUERIES
 		clear: left;
 	}
 
+	#gallery3 img {
+		opacity: 1;
+	}
 
 	/****************
 	 PAGE: ABOUT
@@ -134,23 +137,26 @@ MEDIA QUERIES
 	.bio {
 		width: 80%;
 	}
+}
 
+@media screen and (max-width: 864px) {
 
-
-
-
-
-
-
+	nav a {
+		font-size: .8em;
+	}
 
 }
 
+@media screen and (min-width: 864px) {
 
+	#gallery3 img {
+		opacity: .5;
+	}
 
-
-
-
-
+	#gallery3 img:hover {
+		opacity: 1;
+	}
+}
 
 
 

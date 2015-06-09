@@ -232,7 +232,7 @@ nav a, nav a:visited {
 
 /* Selected Nav Links */
 nav a.selected, nav a:hover {
-	color: #70B24F;;
+	color: #70B24F;
 }
 
 #gallery2 {
@@ -293,3 +293,37 @@ nav a.selected, nav a:hover {
 	clear: both;
 	padding-top: 20px;
 }
+
+form {
+	text-align: center;
+}
+
+input,
+textarea {
+	width: 200px;
+	margin-bottom: 5px;
+	border-color: white;
+	outline: none;
+}
+
+input:focus {
+	background: #CBFFB2;
+	border-color: white;
+	outline: none;
+}
+
+textarea:focus {
+	border-color: white;
+	outline: none;
+}
+
+.thanks::after {
+	content: " ☆ ☆ ☆ ";
+	color: #ccc;
+}
+
+.thanks::before {
+	content: " ☆ ☆ ☆ ";
+	color: #ccc;
+}
+
