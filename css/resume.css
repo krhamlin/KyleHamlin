@@ -1,6 +1,6 @@
 
 .bio {
-	width: 75%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -44,6 +44,15 @@ hr {
 
 .res {
 	width: 50%;
+}
+
+.biography {
+	margin: 0 auto;
+}
+
+.biography p {
+	width: 90%;
+	font-family: 'Exo 2', sans-serif;
 }
 
 .resume {

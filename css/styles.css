@@ -168,7 +168,7 @@ PAGE: ABOUT STYLES
 
 .profile-photo {
 	display: block;
-	max-width: 150px;
+	max-width: 250px;
 	margin: 0 auto 30px;
 	border-radius: 35%;
 }

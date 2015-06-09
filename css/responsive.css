@@ -135,7 +135,11 @@ MEDIA QUERIES
 	}
 
 	.bio {
-		width: 80%;
+		width: 50%;
+	}
+
+	.biography {
+		width: 75%;
 	}
 }
 
@@ -155,6 +159,14 @@ MEDIA QUERIES
 
 	#gallery3 img:hover {
 		opacity: 1;
+	}
+
+	.bio {
+		width: 50%;
+	}
+
+	.biography {
+		width: 75%;
 	}
 }
 
