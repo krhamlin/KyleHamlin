@@ -329,3 +329,7 @@ textarea:focus {
 	content: " ☆ ☆ ☆ ";
 	color: #ccc;
 }
+
+.minor li {
+	width: 120px;
+}
