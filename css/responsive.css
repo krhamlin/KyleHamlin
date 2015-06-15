@@ -46,23 +46,11 @@ MEDIA QUERIES
 	}
 
 	nav a {
-	font-weight: 700;
-	padding: 15px 5px;
-}
+		font-weight: 700;
+		padding: 15px 5px;
+	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (min-width: 660px) {
 
@@ -82,7 +70,7 @@ MEDIA QUERIES
 	#logo {
 		float: left;
 		text-align: center;
-		width: 30%;
+		width: 34%;
 	}
 
 	h1 {
@@ -97,6 +85,7 @@ MEDIA QUERIES
 	header {
 		border-bottom: 5px solid #CBFFB2;
 		margin-bottom: 60px;
+		height: 130px;
 	}
 
 	p {
@@ -117,7 +106,7 @@ MEDIA QUERIES
 	}
 
 	nav a:hover, nav a.selected {
-		color: #CBFFB2;
+		color: LightSalmon;
 	}
 
 	/****************
@@ -140,6 +129,10 @@ MEDIA QUERIES
 
 	.biography {
 		width: 75%;
+	}
+
+	.show {
+		font-size: .8em;
 	}
 }
 

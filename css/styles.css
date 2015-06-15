@@ -5,9 +5,6 @@ GENERAL STYLES
 body {
 	font-family: 'Exo 2', sans-serif;
 	background: url("../img/crossword.png");
-	display: flex;
-	flex-direction: column;
-	height: 100%;
 }
 
 /* HTML */
@@ -49,9 +46,9 @@ HEADING STYLES
 ****************/
 
 header {
-	float: left;
 	margin: 0 0 30px 0;
 	padding: 5px 0 0 0;
+	height: 190px;
 	width: 100%;
 	text-align: center;
 	background: url("../img/black_thread.png");
@@ -63,8 +60,9 @@ header {
 }
 
 #logo h1,
-#logo h2 {
-	color: #FFB7FD;
+#logo h3 {
+	font-family: 'Exo 2', sans-serif;
+	color: LightSalmon;
 }
 
 h1 {
@@ -87,9 +85,9 @@ NAVIGATION STYLES
 ****************/
 
 nav {
+	width: 100%;
 	text-align: center;
 	padding: 10px 0;
-	margin: 20px 0 0;
 	font-size: 1.5em;
 	background: url("../img/black_thread.png");
 }
@@ -237,7 +235,7 @@ nav a, nav a:visited {
 
 /* Selected Nav Links */
 nav a.selected, nav a:hover {
-	color: #70B24F;
+	color: LightSalmon;
 }
 
 #gallery2 {
@@ -294,9 +292,9 @@ nav a.selected, nav a:hover {
 
 .top {
 	text-align: center;
-	font-size: 2em;
+	font-size: 1.5em;
 	clear: both;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 form {
@@ -331,4 +329,3 @@ textarea:focus {
 	content: " ☆ ☆ ☆ ";
 	color: #ccc;
 }
-
