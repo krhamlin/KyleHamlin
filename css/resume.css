@@ -26,12 +26,20 @@
 
 .dropcap {
 	font-size: 4em;
-	background: #B03838;
+	background: LightSalmon;
 	color: white;
 	padding: .5em;
 	margin: .25em;
 	float: left;
 	border-radius: 25%;
+}
+
+.years {
+	text-decoration: none;
+	float: right;
+	list-style: none;
+	font-weight: bold;
+	font-size: .75em;
 }
 
 .bio h4 {
@@ -64,3 +72,6 @@ hr {
 	text-decoration: none;
 	float: left;
 }
+ .bio p {
+ 	font-size: 1em;
+ }

@@ -40,11 +40,6 @@ MEDIA QUERIES
 	 PAGE: ABOUT
 	****************/
 
-	.profile-photo {
-		float: left;
-		margin: 0 5% 80px 0;
-	}
-
 	nav a {
 		font-weight: 700;
 		padding: 15px 5px;
@@ -122,16 +117,18 @@ MEDIA QUERIES
 		float: right;
 	}
 
+	.biography,
 	.bio {
-		width: 50%;
-	}
-
-	.biography {
 		width: 75%;
 	}
 
 	.show {
 		font-size: .8em;
+	}
+
+	.profile-photo {
+	float: left;
+	margin: 0 5% 80px 0;
 	}
 }
 
@@ -153,11 +150,8 @@ MEDIA QUERIES
 		opacity: 1;
 	}
 
+	.biography,
 	.bio {
-		width: 50%;
-	}
-
-	.biography {
 		width: 75%;
 	}
 }
