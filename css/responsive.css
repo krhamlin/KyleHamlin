@@ -8,14 +8,6 @@ MEDIA QUERIES
 	 PAGE: PORTFOLIO
 	****************/
 
-	#gallery li {
-		width: 28.3333333333333333%;
-	}
-
-	#gallery li:nth-child(4n) {
-		clear: left;
-	}
-
 	#gallery2 li {
 		width: 45%;
 	}
@@ -52,6 +44,10 @@ MEDIA QUERIES
 	/****************
 	 HEADER
 	****************/
+
+	.top {
+		display: none;
+	}
 
 	nav {
 		background: none;
@@ -127,8 +123,8 @@ MEDIA QUERIES
 	}
 
 	.profile-photo {
-	float: left;
-	margin: 0 5% 80px 0;
+		float: left;
+		margin: 0 5% 80px 0;
 	}
 
 	.clear {
@@ -151,13 +147,7 @@ MEDIA QUERIES
 
 @media screen and (min-width: 864px) {
 
-	#gallery3 img {
-		opacity: .5;
-	}
-
-	#gallery3 img:hover {
-		opacity: 1;
-	}
+	
 
 	.biography,
 	.bio {
